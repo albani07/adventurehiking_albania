@@ -20,6 +20,7 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+/* header*/
 
 header {
 	background-color: #fff;
@@ -44,7 +45,7 @@ nav ul li {
 nav ul li a {
 	font-size: 18px;
 }
-
+/* main*/
 main {
 	max-width: 800px;
 	margin: 0 auto;
@@ -70,7 +71,7 @@ li {
 	margin-bottom: 10px;
 }
 
-form label {
+/* form label {
 	display: block;
 	margin-bottom: 5px;
 	font-weight: bold;
@@ -103,8 +104,61 @@ form button {
 
 form button:hover {
 	background-color: #0062cc;
+} */
+/*rating form*/
+.rate-form{
+	margin: 50px auto;
+	max-width: 600px;
+	text-align: center;
+}
+.rate-form h2 {
+	margin-bottom: 20px;
+}
+.rate-form form {
+	display: inline-block;
+	text-align: left;
+}
+.rate-form .rating {
+	margin-bottom: 20px;
+}
+.rate-form .rating input[type="radio"] {
+	display: none;
 }
 
+.rate-form .rating label {
+	display: inline-block;
+	font-size: 30px;
+	color: #ccc;
+	cursor: pointer;
+}
+
+.rate-form .rating input[type="radio"]:checked + label {
+	color: #f1c40f;
+}
+.rate-form .comment label {
+	display: block;
+	margin-bottom: 5px;
+}
+.rate-form .comment textarea {
+	width: 100%;
+	height: 100px;
+	resize: vertical;
+	border: 1px solid #ccc;
+	padding: 5px;
+	font-size: 16px;
+}
+.rate-form button[type="submit"] {
+	background-color: #f1c40f;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.rate-form button[type="submit"]:hover {
+	background-color: #e3b60c;
+}
+/*footer*/
 footer {
 	padding: 20px;
 	background-color: #fff;

@@ -32,7 +32,7 @@
 				<li><a href="#">Historical Tours</a></li>
 			</ul>
 		</section>
-		<section>
+		<!-- <section>
 			<h2>Contact Us</h2>
 			<form>
 				<label for="name">Name:</label>
@@ -42,7 +42,7 @@
 				<label for="message">Message:</label>
 				<textarea id="message" name="message" rows="5" required>Submit</textarea>
 			</form>
-		</section>
+		</section> -->
 		<section class="rate-form">
 			<h2>Rate Your Experience</h2>
 			<form id="rate-form">
@@ -53,7 +53,20 @@
 					<input type="radio" name="rating" value="2" id="2"><label for="2">2</label>
 					<input type="radio" name="rating" value="1" id="1"><label for="1">1</label>
 				</div>
+				<div class="comment">
+					<label for="comment">Leave a comment!</label>
+					<textarea id="comment" name="comment"></textarea>
+				</div>
+				<button type="submit">Submit</button>
+				<div class="incentive">
+					<p>Thank you for your feedback! As a token of our appreciation, here's a discount doce for your next tour with us!</p>
+					<p class="discount-code">DISCOUNT123</p>
+				</div>
 			</form>
+			<div class="send-email">
+				<p>Did you recently go on a tour with us? Leave a ratinf and a comment to recieve a discount on the next tour!</p>
+				<a href="mailto:customerservice@yourtourcompany.com?subject=Tour Feedback&body=Hi,%0D%0A%0D%0AWe hope you enjoyed your recent tour with us! Please take a moment to leave a rating and comment on our website using this link:%0D%0A%0D%0Ahttps://www.yourtourcompany.com/rate%0D%0A%0D%0AThank you for your feedback!%0D%0A%0D%0ABest regards,%0D%0AThe Your Tour Company Team" class="email-link">Send Us an Email</a>
+			</div>
 		</section>
 	</main>
 	<footer>
