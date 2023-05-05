@@ -10,6 +10,7 @@ body {
 	line-height: 1.5;
 	color: #333;
 	background-color: #f0f0f0;
+	
 }
 
 a {
@@ -26,11 +27,13 @@ header {
 	background-color: #fff;
 	padding: 20px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+	max-width: 100%;
+	margin: 0 auto;
 }
 
 h1 {
 	font-size: 36px;
-	margin-bottom: 10px;
+	/* margin-bottom: 10px; */
 }
 
 nav ul {
@@ -45,9 +48,19 @@ nav ul li {
 nav ul li a {
 	font-size: 18px;
 }
+li {
+	margin-top: 30px;
+}
+
+.logo {
+	border-radius: 50%;
+	/* padding: 10px; */
+		width: 150px;
+		height: 100px;
+}
 /* main*/
 main {
-	max-width: 800px;
+	max-width: 95%;
 	margin: 0 auto;
 	padding: 20px;
 	background-color: #fff;
@@ -71,7 +84,7 @@ li {
 	margin-bottom: 10px;
 }
 
-.map-container {
+/* .map-container {
 	margin: 50px auto;
 	max-width: 800px;
 	height: 400px;
@@ -80,6 +93,51 @@ li {
 #map {
 	width: 100%;
 	height: 100%;
+} */
+
+.recommendations-container {
+	max-width: 1200px;
+	margin: 50px auto;
+	text-align: center;
+}
+
+.recommendation {
+	display: inline-block;
+	width: 300px;
+	margin: 20px;
+	vertical-align: top;
+}
+
+.recommendation img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.recommendation h3 {
+	margin: 10px 0;
+	font-size: 24px;
+}
+
+.recommendation p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.recommendation a {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 5px;
+	font-size: 16px;
+	transition: all 0.3s ease;
+}
+
+.recommendation a:hover {
+	background-color: #0056b3;
 }
 /* form label {
 	display: block;
