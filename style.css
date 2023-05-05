@@ -25,38 +25,64 @@ a:hover {
 
 header {
 	background-color: #fff;
-	padding: 20px;
+	padding: 0 auto;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
 	max-width: 100%;
 	margin: 0 auto;
+	
 }
 
-h1 {
-	font-size: 36px;
-	/* margin-bottom: 10px; */
+.nav {
+	
+	display: flex;
+	justify-content: center;
+	box-shadow: #a33535;
+	background-color: #f8f4f3;
 }
-
 nav ul {
 	list-style: none;
 	display: flex;
+	
 }
 
 nav ul li {
-	margin-right: 20px;
+	margin-right: 40px;
+	margin-top: 30px;
 }
 
 nav ul li a {
-	font-size: 18px;
+	font-size: 19px;
+	font-family:'Times New Roman', Times, serif;
+	font-weight: 800;
+	color: #755a10;
 }
-li {
-	margin-top: 30px;
-}
+
 
 .logo {
 	border-radius: 50%;
 	/* padding: 10px; */
-		width: 150px;
-		height: 100px;
+	width: 150px;
+	height: 100px;
+	margin-right: auto;
+	
+}
+h1 {
+	font-size: 36px;
+	color: #9b9c32;
+	font-family: 'Times New Roman', Times, serif;
+	/* margin-bottom: 10px; */
+	text-align: center;
+	padding-top: 18px;
+}
+.nav-pic {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding-top: 25px;
+}
+.nav-pic-css {
+	width: 200;
+	height: 182.5px
 }
 /* main*/
 main {
